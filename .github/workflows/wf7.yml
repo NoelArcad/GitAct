@@ -25,5 +25,5 @@ jobs:
         pip install -r requirements.txt
 
     - name: Python Syntax Check
-      run: python3 -m py_compile IMC.py IMC2.py IMC3.py
+      run: python3 -m py_compile IMC.py IMC2.py 
      
