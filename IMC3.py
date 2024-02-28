@@ -35,17 +35,3 @@ print(f"Catégorie de poids : {categorie_imc}")
 
 
 
- html = """
-            <html>
-            <body>
-                <p>Bienvenue ! Entrez votre nom d'utilisateur :</p>
-                <form method="get" action="/page_accueil">
-                    <input type="text" name="user_name" placeholder="Nom d'utilisateur">
-                    <input type="submit" value="Continuer">
-                </form>
-            </body>
-            </html>
-            """
-
-
-
