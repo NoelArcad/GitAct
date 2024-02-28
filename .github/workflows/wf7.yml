@@ -21,8 +21,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
+        python3 -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Python Syntax Check
-      run: python -m py_compile IMC.py
+      run: python3 -m py_compile IMC.py
